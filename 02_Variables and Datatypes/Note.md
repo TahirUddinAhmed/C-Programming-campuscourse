@@ -86,6 +86,9 @@ int main() {
 }
 ```
 
+### Assignment 
+ 1. Write a C program to create a variable name called "pincode" which will store your village pincode, and also print the value using printf()
+
 
 
 
