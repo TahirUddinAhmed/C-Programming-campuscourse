@@ -1,4 +1,4 @@
-# Variables 
+# Variables & Data types
  A Variable is a container which stores a value. In kitchen, We have containers Storing Rice, Dal, Sugar etc. Similar to that a variable in C stores values 
  e.g: 
 ```c
