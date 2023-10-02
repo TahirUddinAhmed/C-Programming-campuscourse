@@ -50,6 +50,6 @@ The data types in C has occupied memory space in (RAM).
  ## Keywords in C 
  Keywords in C are reserved words that have predefined meanings in the C programming language. These keywords can't be used as identifiers(such as variable names or function names) because they serve specific purposes within the language. Here is the list of C keywords: 
  
- ![Alt Text](../02_Variables%20and%20Datatypes/img/keywords.png)
+ ![Alt Text](./img/keywords.png)
 
 
