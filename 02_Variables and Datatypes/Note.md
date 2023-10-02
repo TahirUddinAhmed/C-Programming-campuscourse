@@ -87,7 +87,26 @@ int main() {
 ```
 
 ### Assignment 
- 1. Write a C program to create a variable name called "pincode" which will store your village pincode, and also print the value using printf()
+ 1. Write a C program to create a variable name called "pincode" which will store your village pincode, and also print the value using printf(). 
+ 2. What will be the output of the following program: 
+  ```c
+  #include <stdio.h>
+
+  int main() {
+    printf("Hello everyone\n");
+
+    return 0;
+
+    printf("How're you all\n");
+  }
+  ```
+   1. Hello Everyone\n
+   
+   2. Hello Everyone<br>
+      How're you all
+   3. Hello Everyone
+   4. None of the above
+
 
 
 
