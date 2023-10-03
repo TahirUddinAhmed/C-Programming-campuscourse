@@ -51,11 +51,11 @@ The data types in C has occupied memory space in (RAM).
    `c`. 64 <br>
    `d`. 63 <br>
 
-2. Which of the following is true for variable names in C ?
-  `a`. Variable can be of any length. 
-  `b`. Variabl names cannot start with a digit. 
-  `c`. They can contain alphanumeric characters as well as special characters
-  `d`. Keywords words can be used as variable name 
+2. Which of the following is true for variable names in C ? <br>
+  `a`. Variable can be of any length. <br>
+  `b`. Variabl names cannot start with a digit. <br>
+  `c`. They can contain alphanumeric characters as well as special characters <br>
+  `d`. Keywords words can be used as variable name <br>
 
 3. Which of the following cannot be a variable name in C ? 
  `a`. TRUE <br>
