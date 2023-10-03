@@ -57,7 +57,7 @@ The data types in C has occupied memory space in (RAM).
   `c`. They can contain alphanumeric characters as well as special characters <br>
   `d`. Keywords words can be used as variable name <br>
 
-3. Which of the following cannot be a variable name in C ? 
+3. Which of the following cannot be a variable name in C ? <br>
  `a`. TRUE <br>
  `b`. friend <br>
  `c`. export <br>
