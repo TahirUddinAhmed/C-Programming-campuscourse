@@ -3,26 +3,26 @@
 
 1. Choose the right options: <br>
 
-`a`. What is required in each C Program ? <br>
+a. What is required in each C Program ? <br>
     `I`. The program must have at least one function. <br>
     `II`. The program does not require any function <br>
     `III`. Input data <br>
-    `IV`. Output data <br>
-`Answer`: `I`. The program must have at least one function. <br>
+    `IV`. Output data <br><br>
+Answer: `I`. The program must have at least one function. <br><br>
 
-`b`. C language is a successor to which language. <br>
+b. C language is a successor to which language. <br>
     `I`. FORTRAN <br>
     `II`. D language <br>
     `III`. Basic <br>
     `IV`. B lanugage <br><br>
-    `answer`: `IV`. B language <br>
-`c`. High level language is a <br>
+    Answer: `IV`. B language <br><br>
+c. High level language is a <br>
      `I`. Human readable like language <br>
      `II`. language with small program size. <br> 
      `III`. language with big program size. <br>
      `IV`. language which is difficult to understand and not human readable. <br><br>
-     `answer`: `I`. Human readable like language <br><br>
-`d`. C language was invented in the year - <br>
+     Answer: `I`. Human readable like language <br><br>
+d. C language was invented in the year - <br>
     `I`. 1999 <br>
     `II`. 1978 <br>
     `III`. 1972 <br>
