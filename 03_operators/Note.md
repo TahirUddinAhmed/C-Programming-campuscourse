@@ -95,7 +95,7 @@ a = 8                     => operation: -
    perimeter of rectangle = 2 * (l + b)
 ```
 
-3. What will be the output value of the variable `c`- 
+3. What will be the value of the variable `c`- 
 ```c
   int a = 7;
   int b = 4;
