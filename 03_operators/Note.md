@@ -10,11 +10,11 @@ int sum = 12 + 123;
 ```
 
 There are several types of operators in C - 
-  - Arithmetic Operators
-  - Assignment Operators
-  - Relational Operators
-  - Logical Operators 
-  - Increment / Decrement Operators 
+  - Arithmetic Operators (+, -, *, /, %)
+  - Assignment Operators - ( = , +=, -=, *= , %= );
+  - Relational Operators (==, !=, >, <, >=, <=)
+  - Logical Operators (&&, !!, !) 
+  - Increment / Decrement Operators (++, --)
 
 In this lecture we are going to discuss about the `arithmetic` operators.
 
@@ -82,31 +82,5 @@ a = 2 + 8 - 2             => operation: +
 a = 10 - 2                => operation: +
 a = 8                     => operation: -
 ```
-
-
-## Questions 
-
-1. Write a C program that calculates the remainder of two integers.(Hint: use modulus operator )
-
-2. Write a C program that calculates the perimeter of a rectangle given its length and width. 
-
-```
- Formula: 
-   perimeter of rectangle = 2 * (l + b)
-```
-
-3. What will be the value of the variable `c`- 
-```c
-  int a = 7;
-  int b = 4;
-  int c = a % b;
-```
-
-  `a`: 0 <br>
-  `b`: 1 <br>
-  `c`: 3 <br>
-  `d`: 12 <br>
-
-
 
 
