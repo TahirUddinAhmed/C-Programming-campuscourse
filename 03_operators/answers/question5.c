@@ -16,3 +16,10 @@ int main() {
 // Write a C Program that coverts temperature from celcius to ferenheit.
 
 // Ferenheit = (C × 9/5) + 32 
+
+
+// Assignment Operator (+, -, * , / , %)
+// Operator precedence 
+// Comma Operator ,
+
+// Relation operator >, <, >=, <=, ==
