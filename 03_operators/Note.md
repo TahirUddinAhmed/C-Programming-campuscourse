@@ -83,4 +83,88 @@ a = 10 - 2                => operation: +
 a = 8                     => operation: -
 ```
 
+## Assigment Operator
+
+  Assignment Operators are used to assign Values to variables. 
+
+ for example 
+ ```c
+  int a; // Declaring a variable named "a"
+  a = 5; // Assigning the value 5 to the variable a.
+ ``` 
+Here assignment operator (=) to assign the value 5 to a variable called a. 
+
+ The addition assignment operator (`+=`) adds a value to a variable. 
+
+ ```c
+   int age = 10;
+   age += 5;
+ ```
+
+ A list of all assignment operators: 
+
+ | Operator | Example | Same As |
+ | --- | --- | --- |
+ | = | a = 10 | a = 10 |
+ | += | a += 2 | a = a + 2 |
+ | -= | a -= 2 | a = a - 2 | 
+ | *= | a *= 2 | a = a * 2 | 
+ | /= | a /= 2 | a = a / 2 |  
+ | %= | a %= 2 | a = a % 2 |  
+
+```c
+#include <stdio.h>
+
+int main() {
+  int a = 10;
+  a *= 5;
+
+  printf("a = %d\n", a);
+  return 0;
+}
+```
+Output: 
+```
+ a = 50
+```
+
+## Relational Operators (Comparision Operator)
+  Relational Operators in C are used to compare values and determie the relationship between them. These operators return a boolean value (`true` or `false`).
+
+  The return value of a relational operator is either `1` or `0`. Which true(`1`) or false(`0`).
+
+  e.g
+  ```c
+   int x = 10;
+   int y = 7;
+
+
+   printf("%d\n", x > y); // return 1 (true) because 10 is greater than 7
+
+   return 0;
+  ```
+
+  Relational Operators 
+  | Operator | Name | Example | Result |
+  | --- | --- | --- | --- |
+  | == | Equal to | 5 == 2 | 0 (false) |
+  | != | Not equal | 5 != 2 | 1 (true) |
+  | > | Greater than | 5 > 2 | 1 (true) |
+  | < | Less than | 5 < 2 | 0 (false) |
+  | >= | Greater than or equal to | 5 >= 2 | 1 (true) |
+  | <= | Less than or equal to | 5 <= 2 | 0 (false) |
+
+## SizeOf Operator 
+The memory size (in bytes) of data types or a variable can be found with the `sizeof` operator. 
+
+
+
+
+
+
+ 
+
+
+
+
 
