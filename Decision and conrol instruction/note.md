@@ -82,3 +82,7 @@ int main() {
     - `C`. To define variable names
     - `D`. To group statements together as a block 
 
+5. Write a C program that takes two integers as input from the user to determine whether the numbers are equal or not. 
+
+6. Create a program that checks if a year is a leap year or not using an "if-else" statement, following the leap year rules (divisible by 4).
+
