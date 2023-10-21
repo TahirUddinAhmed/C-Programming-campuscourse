@@ -86,3 +86,18 @@ int main() {
 
 6. Create a program that checks if a year is a leap year or not using an "if-else" statement, following the leap year rules (divisible by 4).
 
+7. What Will the following code Output ?
+```c
+int num = 15;
+if (num > 10) {
+    printf("A\n");
+} else {
+    printf("B\n");
+}
+```
+   - `1`. A
+   - `2`. B
+   - `3`. A and B
+   - `4`. Neither A nor B
+
+
