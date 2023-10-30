@@ -192,7 +192,7 @@ y = ++a; // y = 6, a = 6
 z = b++; // z = 7, b = 8
 ```
 ### Questions for increment and decrement operators 
-1. Give 
+1. Given 
 ```c
 int x = 10;
 int y = ++x;
