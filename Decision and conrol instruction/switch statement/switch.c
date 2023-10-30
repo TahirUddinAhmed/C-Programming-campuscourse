@@ -1,23 +1,14 @@
 #include <stdio.h>
-
 int main() {
-    // integer number and character 
-    // boolean value (true or false)
-    // float, double, int, character
-    char gender = 'm';
 
-    //       m
-    switch(gender) {
-        case 'f': 
-           printf("You are a female");
-           break;
-        case 'm':
-           printf("You are a male\n");
-           printf("You are so strong");
-           break;
-        deafult: 
-           printf("Others");
-    }
+   int a = 5;
+   int b = 5;
 
-    return 0;
+   if (a == b) {
+      printf("equal");
+      printf("Awesome");
+   } else
+      printf("not equal");
+
+   return 0;
 }
