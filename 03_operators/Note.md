@@ -155,7 +155,70 @@ Output:
   | <= | Less than or equal to | 5 <= 2 | 0 (false) |
 
 ## SizeOf Operator 
-The memory size (in bytes) of data types or a variable can be found with the `sizeof` operator. 
+The memory size (in bytes) of data types or a variable can be found with the `sizeof` operator.
+
+## Increment / Decrement Operator (++, --)
+The increment and decrement operators in C are used to increment or decrement the value of a variable by 1
+ - The `++` operator is used for incrementing a variable by 1. For example, `x++` will increment the value of `x` by 1.
+ - The `--` operator is used for decrementing a variable by 1. For example, `y--` will decrement the value of `y` by 1.
+
+example 
+```c
+#include <stdio.h>
+
+int main() {
+  int a = 5;
+  
+  printf("a=%d\n", ++a); // a = 6
+
+  return 0;
+}
+
+```
+
+the increment and decrement operators can be used in two ways: 
+   1. prefix (`++variable`)
+   2. postfix (`variable++`)
+
+1. Prefix: When used as prefix(`++variable`), the value is incremented by 1 before the value is used in the expression.
+
+2. Postfix (`variable++`):the value is incremented by 1 after the value is ussed in the expression. 
+
+```c
+int a = 5, b = 7;
+int y, z;
+
+y = ++a; // y = 6, a = 6
+z = b++; // z = 7, b = 8
+```
+### Questions for increment and decrement operators 
+1. Give 
+```c
+int x = 10;
+int y = ++x;
+```
+What will be the value of `x` and `y` after the operation ? 
+
+2. What will be the output of the following code . 
+```c
+#include <stdio.h>
+
+int main() {
+  int a = 5, b = 2;
+
+  printf("%d\n", a++); 
+  printf("%d\n", a);   
+  printf("%d\n", --a); 
+  printf("%d\n", ++a);    
+  printf("%d\n", a++); 
+  printf("%d\n", --a); 
+
+  return 0;
+}
+```
+
+
+ 
 
 
 
