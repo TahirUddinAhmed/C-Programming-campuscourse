@@ -2,11 +2,10 @@
 
 int main() {
     // print - "meow" 40 times
-    // i = 6      
-    // i = 11
+    // i = 66
 
         // infinite loop 
-        // 61 >= 40   
+        // 71 >= 40   
     for(int i = 61; i >= 40; i+=5) {
         printf("Meow\n");
     }
