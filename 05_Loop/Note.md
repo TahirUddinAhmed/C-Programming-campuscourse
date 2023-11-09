@@ -47,7 +47,7 @@ syntax:
 
 while(condition) {
     // code to be executed
-    // Update the condition 
+    // Update 
 }
 ```
  - `condition`: The loop continues to execute as long as this condition is true. If the condition evaluates to false, The loop terminates. 

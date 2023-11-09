@@ -1,18 +1,16 @@
 // 5! = 5 * 4 * 3 * 2 * 1
 // 4! = 4 * 3 * 2 * 1
+
+// 7 = 1 * 2 * 3 * 4 * 5 * 6 * 7
 #include <stdio.h>
 
 int main() {
-    int num;
-    int power;
-    int result = 1;
-    scanf("%d", &num);
-    scanf("%d", &power);
+    int number;
+    scanf("%d", &number);
 
-
-    for(int i = 1; i <= power; i++) {
-       result *= num;
+    for(int i = 1; i <= number; i++) {
+        printf("%d\n", i);
     }
-    printf("%d", result);
+    
     return 0;
 }
