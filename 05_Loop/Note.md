@@ -69,3 +69,23 @@ while(condition) {
  ```
 
  > Note: Do not forget to increment the variable used in the condition (`i++`), otherwise the loop will never end
+
+## do-while loop
+The `do while` loop is a type of control flow structure in C that executes a block of code repeatedly based on a specified condition. It is similar to the `while` loop, but the difference is that the `do while` loop guarantees that the block of code will be executed at least once before the condition is checked. 
+
+Syntax: 
+ ```c
+ // initialization
+
+ do {
+    // code block to be executed
+    // this block will run at least once
+
+    // update 
+ } while(condition);
+ 
+ ```
+ Key Points to understand: 
+
+  1. Initial execution: The code block whithin the `do` will execute at least once, regardless of the condition. After the first execution, the condition is evaluated. 
+  2. Condition Checking: After the initial execution, the loop continues to execute as long as the condition specified after the `while` keyword is `true`.
