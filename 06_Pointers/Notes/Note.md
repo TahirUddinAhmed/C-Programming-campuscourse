@@ -75,3 +75,5 @@ int *ptr = &x;
 // now the value of x = 4
 
 ```
+
+Note: the `*` in pointer is called value of operator
