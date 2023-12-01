@@ -15,7 +15,7 @@ return_type function_name(parameters) {
 
  "Hello" Print 
 
-   // function definition
+   // function
    void sayHello() {
     printf("\nHello");
    } 
