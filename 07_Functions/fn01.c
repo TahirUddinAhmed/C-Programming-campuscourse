@@ -2,34 +2,33 @@
 #include <math.h>
 
 int main() {
-    int a = 5;
-
+    // int a = 5;
     // square root: sqrt()
     // It returns the suare root of a number
     float result = sqrt(27);
 
-    printf("%f\n", result);
-     
+    sqrt(16);
+
+    // printf("%f\n", result);    
     
-    // floor(): 
-    printf("%f\n", floor(15.6));
-    // 1.9          1
+    // // floor(): 
+    // printf("%f\n", floor(15.6));
+    // // 1.9          1
 
-    // ceil(): 
-    // 1.2            2
-    // 15.4          16
-    printf("%f\n", ceil(102.9));
+    // // ceil(): 
+    // // 1.2            2
+    // // 15.4          16
+    // printf("%f\n", ceil(102.9));
 
-    // power: pow()
-    // 3 to the 2
+    // // power: pow()
+    // // 3 to the 2
 
-    printf("%f\n", pow(5, 3));
+    // printf("%f\n", pow(5, 3));
 
     // definition
     //float pow(number, power) {
      //    float result = number * number * number;   
     // }
-
 
     return 0;
 }

@@ -10,6 +10,15 @@ int main() {
     // 2. Convert floatValue to int and store it in resultInt.
     // 3. Print all the values
 
+    // 1. intValue to float
+    float resultFloat = (float) intValue;
+
+    // 2. 
+
+
+    printf("%f\n", resultFloat);
+
 
     return 0;
 }
+
