@@ -76,3 +76,18 @@ int add(int x, int y) {
     return x + y;
 }
 ```
+
+
+
+## Questions
+
+1. Write a program to create three functions - 
+   - `goodMrng()` function which will print - "Good Morning".
+   - `goodAft()` function which will print - "Good Afternoon"
+   - `goodNight()` function which will print - "Good Night".
+
+2. Write a C Program to create a function which will take one integer parameters and increment the value by 10. 
+
+3. Create a function which will take an integer parameters and check if the integer value is divisible by 7 or not. 
+
+4. Create a function that takes two floating point value as parameters and display the division of the numbers. 
