@@ -77,6 +77,28 @@ int add(int x, int y) {
 }
 ```
 
+## Parameters & Arguments 
+
+### Parameters 
+Parameters are variables declared within the parentheses of a function definition. They act as placeholders for values that the function expects to receive when it is called. 
+
+Example: 
+```c
+// here `a` and `b` are parameters
+void add(int a, int b) {
+    printf("%d", a + b);
+}
+```
+In this example, `a` and `b` are parameters. They represent the values that the `add` function expects when it is called.
+
+### Arguments
+Arguments are the actual values that are passed to a function when it is called. These values are assigned to the parameters of the function. 
+
+Example: 
+```c
+add(3, 4);
+```
+In the example, `3` and `4` are arguments. They are the actual values passed to the `add` function. and they correspond to the parameters `a` and `b` in the function definition.
 
 
 ## Questions
