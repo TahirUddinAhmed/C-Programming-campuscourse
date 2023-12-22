@@ -100,6 +100,62 @@ add(3, 4);
 ```
 In the example, `3` and `4` are arguments. They are the actual values passed to the `add` function. and they correspond to the parameters `a` and `b` in the function definition.
 
+## Call by Value & Call by Reference 
+In C, function arguments can be passed to a function in two ways: <b>Call by value</b>&<b>Call by reference</b>. These terms refer to how the data is passed between the calling function and the called function. 
+### Call by Value 
+ - In call by value, the actual value of the variable is passed to the function. 
+ - The changes made to the parameters inside the function do not affect the actual values of the arguments. 
+ - example: 
+ ```c
+ #include <stdio.h>
+
+// Function definition
+void fn(int x) {
+    x = 10
+    printf("Value of number inside function: %d\n", x);
+}
+
+int main() {
+    int num = 5;
+
+    // Passing the value of num
+    fn(num);
+
+    // num remains unchanged
+    printf("Original value of num: %d\n", num);
+
+    return 0;
+}
+ ```
+
+ ### Call by reference 
+  - In call by reference, the memory address (reference) of the variable is passed to the function. 
+  - Changes made to the parameters inside the function directly addect the actual values of the arguments. 
+  - Pointers are commonly used to implement call by reference in C. 
+  - Example: 
+
+  ```c
+ #include <stdio.h>
+
+// Function definition
+void fn(int *x) {
+    x = 10
+    printf("Value of number inside function: %d\n", x);
+}
+
+int main() {
+    int num = 5;
+
+    // Passing the value of num
+    fn(&num);
+
+    // num remains unchanged
+    printf("Original value of num: %d\n", num);
+
+    return 0;
+}
+ ```
+
 
 ## Questions
 
