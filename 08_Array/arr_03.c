@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+void show_array(int array[], int size) {
+    for(int i; i < size; i++) {
+        printf("%d\n", array[i]);
+    }
+}
+
 int main() {
     int rollNumbers[3];
 
@@ -9,7 +15,8 @@ int main() {
     rollNumbers[2] = 5;
 
 
-    printf("%d\n", rollNumbers[2]);
+    // printf("%d\n", rollNumbers[2]);
+    show_array(rollNumbers, 3);
 
     return 0;
 }
