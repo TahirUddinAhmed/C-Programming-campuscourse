@@ -19,14 +19,23 @@ int main() {
     // i = 2 loop 1 to 4
 
     // loop 
-    for(int i = 1; i < 6; i++) {
-        printf("%d\n", i);
-        //             5 < 5
-        for(int k = 1; k < 8; k++) {
-            printf("%d", k);
+    // for(int i = 1; i < 6; i++) {
+    //     printf("%d\n", i);
+    //     //             5 < 5
+    //     for(int k = 1; k < 8; k++) {
+    //         printf("%d", k);
+    //     }
+    //     printf("\n");
+    // }
+
+    for(int i = 1; i <= 4; i++) {
+        printf("value of i is %d\n", i);
+        for(int j = 1; j <= 2; j++) {
+           printf("\tvalue of j is %d\n", j);
         }
-        printf("\n");
     }
+
+
     return 0;
 }
 
