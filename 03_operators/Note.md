@@ -13,7 +13,7 @@ There are several types of operators in C -
   - Arithmetic Operators (+, -, *, /, %)
   - Assignment Operators - ( = , +=, -=, *= , %= );
   - Relational Operators (==, !=, >, <, >=, <=)
-  - Logical Operators (&&, !!, !) 
+  - Logical Operators (&&, ||, !) 
   - Increment / Decrement Operators (++, --)
 
 In this lecture we are going to discuss about the `arithmetic` operators.
